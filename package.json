@@ -1,0 +1,17 @@
+{
+  "name": "HTML5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "canva.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"babel src -d js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "cli": "^1.0.1"
+  }
+}

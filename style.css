@@ -1,0 +1,104 @@
+canvas{
+    border: 1px solid black; 
+}
+body{
+    margin: 0;
+} 
+button {
+    
+    border: 1px solid black;
+    color: white;
+    padding: 2% 2%;
+    text-align: center;
+    
+    text-decoration: wavy;
+    display: inline-block;
+    font-family: monospace;
+    font-style: oblique;
+    font-weight: bolder;
+    
+    font-size: 2px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    z-index: 2;
+    position: absolute;
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eef;
+} */
+
+.button {
+  position: relative;
+  padding: 1.6em 2.8em;
+  text-decoration: none;
+}
+.button__canvas {
+  --offset: 32px;
+  position: absolute;
+  top: calc(var(--offset) * -1);
+  left: calc(var(--offset) * -1);
+  width: calc(100% + var(--offset) * 2);
+  height: calc(100% + var(--offset) * 2);
+  transition: opacity 2s ease;
+}
+.button__text {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+.button:hover .button__canvas {
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+.button:active .button__canvas {
+  opacity: 1;
+  transition: none;
+}
+
+    
+    
+    
+  }
+button:hover {
+    background-color: white; 
+    outline-width: 0ch;
+    -webkit-text-stroke: 1px black;
+    
+    
+  }
+
+
+.blueButton {
+    background-color: blue;
+    color: blue;
+    top:90%;
+    left: 40%;
+    
+    
+    
+}
+.yellowButton {
+    background-color: yellow;
+    color: yellow;
+    top:90%;
+    left: 50%;
+}
+.redButton {
+    background-color: red;
+    color: red;
+    top:90%;
+    left: 60%;
+}
+
+.playButton {
+    background-color: white;
+    color: black;
+    top:90%;
+    left: 30%;
+}
+ 
